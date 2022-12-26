@@ -1,27 +1,71 @@
 body {
     background-color: var(--Dark-cyan);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 main {
-    margin: 1.5rem;
+    margin:7rem 1.5rem 0;
     text-align: center;
     background-color: var(--card-bg);
     border-radius: 1rem;
+    overflow: hidden;
 }
 
 .top {
     background-image: url('../images/bg-pattern-card.svg');
+    padding: 1rem;
+}
+
+.bot {    
+    padding: 1.5rem;
 }
 
 picture img {
     border-radius: 100%;
     margin: 0 auto;
     border: 5px solid var(--card-bg);
+    transform: translateY(4.5rem);
 }
 
 h2 {
-    margin: 0 2rem;
+    margin: 3.5rem 0 .5rem;
+    font-size: 1.15rem;
 }
-    h2 span {
+    h2 span, h3 {
         color: var(--Dark-grayish-blue);
+    }
+        h2 span {
+            margin-left: .5rem;
+        }
+        h3 {
+            font-size: .9rem;
+            font-weight: 400;
+        }
+
+.numbers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 3rem;
+}
+    .numbers h4 {
+        font-size: 1.15rem;
+        margin-bottom: .5rem;
+        letter-spacing: 1px;
+    }
+    .numbers p {
+        font-size: .7rem;
+        font-weight: 400;
+        letter-spacing: 2px;
+        color: var(--Dark-grayish-blue);
+    }
+
+footer {
+    margin-top: auto;
+    padding: 1rem;
+    font-size: 11px; text-align: center;
+}
+    footer a {
+        color: hsl(228, 45%, 44%);
     }
