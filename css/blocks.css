@@ -6,7 +6,7 @@ body {
 }
 
 main {
-    margin:7rem 1.5rem 0;
+    margin: 7rem 1.5rem 0;
     text-align: center;
     background-color: var(--card-bg);
     border-radius: 1rem;
@@ -47,7 +47,7 @@ h2 {
 .numbers {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-top: 3rem;
+    margin-top: 2.5rem;
 }
     .numbers h4 {
         font-size: 1.15rem;
@@ -55,7 +55,7 @@ h2 {
         letter-spacing: 1px;
     }
     .numbers p {
-        font-size: .7rem;
+        font-size: .6rem;
         font-weight: 400;
         letter-spacing: 2px;
         color: var(--Dark-grayish-blue);
