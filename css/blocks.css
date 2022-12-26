@@ -1,0 +1,27 @@
+body {
+    background-color: var(--Dark-cyan);
+}
+
+main {
+    margin: 1.5rem;
+    text-align: center;
+    background-color: var(--card-bg);
+    border-radius: 1rem;
+}
+
+.top {
+    background-image: url('../images/bg-pattern-card.svg');
+}
+
+picture img {
+    border-radius: 100%;
+    margin: 0 auto;
+    border: 5px solid var(--card-bg);
+}
+
+h2 {
+    margin: 0 2rem;
+}
+    h2 span {
+        color: var(--Dark-grayish-blue);
+    }
