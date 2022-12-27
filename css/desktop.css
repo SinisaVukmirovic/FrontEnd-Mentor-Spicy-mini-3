@@ -1,4 +1,5 @@
-main {    
-    margin: 25vh auto 0;
-    width: 22rem;
+@media (min-width: 1440px) {
+    main {    
+        margin-top: 25vh;
+    }
 }
