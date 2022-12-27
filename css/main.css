@@ -11,6 +11,7 @@
     /* Neutral */
     --Dark-gray: hsl(0, 0%, 59%);
     --card-bg: #fff;
+    --my-bg-clr: hsl(211deg 97% 11%);
 }
 
 * {
