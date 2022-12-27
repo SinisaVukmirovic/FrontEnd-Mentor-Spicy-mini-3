@@ -17,8 +17,8 @@ This is a SPICED UP solution to the [Profile card component challenge on Fronten
 
 ### Links
 
-- Solution URL: [CODE]()
-- Live Site URL: [DEMO]()
+- Solution URL: [CODE](https://github.com/SinisaVukmirovic/FrontEnd-Mentor-Spicy-mini-3)
+- Live Site URL: [DEMO](https://sinisavukmirovic.github.io/FrontEnd-Mentor-Spicy-mini-3/)
 
 ## Author
 
